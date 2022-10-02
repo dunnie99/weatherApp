@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <title>weatherApp</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>WeatherApp</h1>
+            
+        </header><br>
+
+        <form class="search-Area">
+            <input type="text" class="search-bar-input" id="input" placeholder="Search by location">
+            <button type="submit" class="search-bar-submit"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></button>
+            <span class="msg">Invalid</span><br>
+        </form>
+
+        <div class="row" id="weather" style="text-align: center;">
+            <img src="http://openweathermap.org/img/wn/04n@2x.png" alt=""/>
+            <h2>36 °C</h2>
+            <h4> Clear </h4>
+        </div>
+    </div>
+
+    <script src="./App.js"></script>
+    
+</body>
+</html>
